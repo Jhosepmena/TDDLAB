@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>seattle-201d39/README.md at master · codefellows/seattle-201d39</title>
+  <title>seattle-201d39/app.js at master · codefellows/seattle-201d39</title>
     <meta name="description" content="Contribute to codefellows/seattle-201d39 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/3904529?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="codefellows/seattle-201d39" /><meta property="og:url" content="https://github.com/codefellows/seattle-201d39" /><meta property="og:description" content="Contribute to codefellows/seattle-201d39 development by creating an account on GitHub." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzE2MzgxMzg0OjQzN2YwMTJlNjVmNDM5ODg2ZGMwOTdhN2IzNDBiODZmZjY2NjIxYWJmZGNjYTNiOWM0YWNlYmQ3YzAyOGE4MzM=--c4cd421123b1933a8274655f2a05fa7ea356a811">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzE2MzgxMzg0OjcyYTczY2FmZTMxYTIzM2RmM2E1ZGUyZWEyNDA0NDlmZmRhM2I5Y2IyZGRlNmU4OTQ4Njc1ZjQ1ZjFlYjJkM2Y=--86cd9eca20473e3e0738aacc04046eae674f7f42">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="C212:0E73:124A0E:1B2E48:5B9F9DDA" data-pjax-transient>
+  <meta name="request-id" content="C212:0E73:12516B:1B2E76:5B9F9DDA" data-pjax-transient>
 
 
   
@@ -51,7 +51,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C212:0E73:124A0E:1B2E48:5B9F9DDA" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40078590" /><meta name="octolytics-actor-login" content="Jhosepmena" /><meta name="octolytics-actor-hash" content="62a21f0eda11e4ae8887233f2018e2291cf54e2c269c2dcb197b16ecc95c0062" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C212:0E73:12516B:1B2E76:5B9F9DDA" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40078590" /><meta name="octolytics-actor-login" content="Jhosepmena" /><meta name="octolytics-actor-hash" content="62a21f0eda11e4ae8887233f2018e2291cf54e2c269c2dcb197b16ecc95c0062" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="Jhosepmena">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MWM5NThmMDBmMzM0MjYzZDUwY2RjZmU1NzJiOTJiMTM1NjAxNWQyNTc4NjVkY2UwMGMyNmQ5ZmU1NGExNjAwZnx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQwLjgzLjM4IiwicmVxdWVzdF9pZCI6IkMyMTI6MEU3MzoxMjRBMEU6MUIyRTQ4OjVCOUY5RERBIiwidGltZXN0YW1wIjoxNTM3MTg3MjkwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MzJkOWQ0MGQzMWVlN2QwM2E0Y2ExNWJmNDg1OWZjM2YzZDk0ZWNkNTk2ZDI5OWVhMWU0YjNkYmU3NjRkZDRmNnx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQwLjgzLjM4IiwicmVxdWVzdF9pZCI6IkMyMTI6MEU3MzoxMjUxNkI6MUIyRTc2OjVCOUY5RERBIiwidGltZXN0YW1wIjoxNTM3MTg3MzE3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_DOCKERFILE_CI_CTA,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,MARKETPLACE_RETARGETING,QUOTE_MARKDOWN">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="3904529" /><meta name="octolytics-dimension-user_login" content="codefellows" /><meta name="octolytics-dimension-repository_id" content="146676429" /><meta name="octolytics-dimension-repository_nwo" content="codefellows/seattle-201d39" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="146676429" /><meta name="octolytics-dimension-repository_network_root_nwo" content="codefellows/seattle-201d39" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/app.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -155,7 +155,7 @@
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=ARZmo8hekXee/tfzjTU273QHEsBVLYRDne0JF59x4wzDVoa8GI6i5jd73D74mw9cU4MFEVdHGapJPYQYWJARNg=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=IKclyiI03BvuuSS85eZhzq2KCAWiiF3R11mwMhBnp57i58XV8uTvikc8L3GQSFh9ig4f1KDiwDgDiT0914ZVpA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -305,7 +305,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="M/71FObg5uK/5uAit0VQUSJHMM3DGG6n5U2fs9I5aSirgZ9e4Z+uc1fwHcqVmDPYGthNj7Z9d0bC4tgnGYtmlg==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DLkKJxDZrCFkKLp0BpcEQI7qySGCJF3j9DwEHo72UoWUxmBtF6bksIw+R5wkSmfJtnW0Y/dBRALTk0OKRURdOw==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -318,7 +318,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aehNdV5YjXqpMXZkjJTJkofIBqck6t4Y5hYKbKXQEtDxlyc/WSfF60Eni4yuSaobv1d75VGPx/nBuU34bmIdbg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="v8rOSzFnuDR2E3/s1kJdtpzvQ9QiKtsgmBs00q6MUPMntaQBNhjwpZ4FggT0nz4/pHA+lldPwsG/tHNGZT5fTQ==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -358,7 +358,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Kt5Y5BPYmywjAu0RJbO2TbmgKqHZTFgTx7GC5VTfZ1rymi8hmNdlqA3JxNSSdnyRjYuTxHmToysSfsdL+7nO5w==" />      <input type="hidden" name="repository_id" id="repository_id" value="146676429" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="h/jx4KEwN0ocSHYlFHF8Zpqkl4Oqq2IgFJXlGgO/BPNfvIYlKj/JzjKDX+CjtLa6ro8u5gp0mRjBWqC0rNmtTg==" />      <input type="hidden" name="repository_id" id="repository_id" value="146676429" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/codefellows/seattle-201d39/subscription"
@@ -438,7 +438,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/codefellows/seattle-201d39/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1TjhU6WN5kSbuHj+KZeTdZ1C7Xc82QfwJuWUUoDDJknmIz6sYOQQSi3jObx7J04xPs0sw1ddyydWnTFqDe9ZrQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/codefellows/seattle-201d39/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="D2UbiPEPdsmFNVvddMYKchq1rg5UUsMFipaZBUFUUaM8fsR3NGaAxzNuGp8mdtc2uTpvuj/WD9L67jw9zHguRw==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -453,7 +453,7 @@
           3
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/codefellows/seattle-201d39/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="R1m+z31oPWLeeoZ6jNjGdROHq5g1S6gINnEJ9jo2Va6kqfg6ljn2tWd2R5mdIMwose4JHkBrDKfpWH9QLmtWEg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/codefellows/seattle-201d39/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Swwjbp+hYagqRn27DmLELM3pQpRrBAXqdyJMydZFDUSo/GWbdPCqf5NKvFgfms5xb4DgEh4koUWoCzpvwhgO+A==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -472,7 +472,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/codefellows/seattle-201d39/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yDc8wElOBRj/ItmmJOZrprLOXwR0b7oSbDjLyZ6HlZj2V/kcFeShJaX9IcdC3CHJL6VwCvurB5UQzglsmTy5eg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/codefellows/seattle-201d39/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T0zAFaIPUbM9Ibi0Lq+z0HAoK0cVzAsaJXHF77rkIIVxLAXJ/qX1jmf+QNVIlfm/7UMESZoItp1ZhwdKvV8MZw==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -553,9 +553,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codefellows/seattle-201d39/blob/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/README.md">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codefellows/seattle-201d39/blob/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/app.js">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:1341e0bdfef86f593d88d71b2d801bb0 -->
+  <!-- blob contrib key: blob_contributors:v21:294c9c4e2a8b530e95aa37ecc9f794fa -->
 
   
 
@@ -599,7 +599,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/README.md"
+               href="/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/app.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -638,12 +638,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39"><span>seattle-201d39</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text"><span>class-05-images-color-text</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text/lab"><span>lab</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39"><span>seattle-201d39</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text"><span>class-05-images-color-text</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text/lab"><span>lab</span></a></span><span class="separator">/</span><strong class="final-path">app.js</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/codefellows/seattle-201d39/contributors/master/class-05-images-color-text/lab/README.md" class="commit-tease commit-loader">
+  <include-fragment src="/codefellows/seattle-201d39/contributors/master/class-05-images-color-text/lab/app.js" class="commit-tease commit-loader">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -660,9 +660,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/raw/master/class-05-images-color-text/lab/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/codefellows/seattle-201d39/blame/master/class-05-images-color-text/lab/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/commits/master/class-05-images-color-text/lab/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/raw/master/class-05-images-color-text/lab/app.js">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/codefellows/seattle-201d39/blame/master/class-05-images-color-text/lab/app.js">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/commits/master/class-05-images-color-text/lab/app.js">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -672,13 +672,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/codefellows/seattle-201d39/edit/master/class-05-images-color-text/lab/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="espiX5bwiCwW9MQC/KhckRVU4Bd6lXWgt1B8+gxNblUWljYifTe+bpBULIKQGO4Jnfd7jeKN2fmx6EOrCD+2Yw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/codefellows/seattle-201d39/edit/master/class-05-images-color-text/lab/app.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rr7t7n0n2CnrovNDa7j2BP7Fu0EcuZlB5v6SnNjpNn+Co09NDSESy50JxdpjYMjTMhHwdpGr/VTNNdVfxw5eFQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/codefellows/seattle-201d39/delete/master/class-05-images-color-text/lab/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0Zb6YEdJa8WTS+Cp6wDxvBnMPd5GTdq0ailEt0l1z84vZpsPP3axNaSYhspOo/FYbpeBwJO0lqyXOLdBRmZbYA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/codefellows/seattle-201d39/delete/master/class-05-images-color-text/lab/app.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Brn9EL8jsrv2e/4YxkRCyQmIZWPy13ofR/2mhJ6dm2hS1JW2ANOGYVgDef79X+MFMDDvsQujpLRvkzeigcfyDg==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -686,33 +686,578 @@
 </form>  </div>
 
   <div class="file-info">
-      29 lines (16 sloc)
+      128 lines (77 sloc)
       <span class="file-info-divider"></span>
-    1.94 KB
+    6.96 KB
   </div>
 </div>
 
     
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-assignment-overview-lab-5" class="anchor" aria-hidden="true" href="#assignment-overview-lab-5"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assignment Overview: Lab 5</h1>
-<p>There are two parts to your lab assignment, and each is in a different assignment in Canvas:</p>
-<h3><a id="user-content-first-part-finish-about-me" class="anchor" aria-hidden="true" href="#first-part-finish-about-me"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>First Part: Finish About Me</h3>
-<p>Put finishing touches on your About Me project and get it deployed. The more time you spend with this, the better you'll get at CSS, but keep in mind that you also have readings to do and need to get some rest and relaxation in as well! The next project we will start is challenging, so be sure to come into it refreshed and ready.</p>
-<hr>
-<h3><a id="user-content-second-part-writing-code-on-branches" class="anchor" aria-hidden="true" href="#second-part-writing-code-on-branches"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Second Part: Writing Code On Branches</h3>
-<p>Today in lab you will fork and clone a <a href="https://github.com/johncokos/201d39-lab-05">GitHub repo</a>, and then create solutions to some code problems such that your solutions pass the included tests.</p>
-<p><strong>Be sure to follow instructions carefully.</strong></p>
-<p>Here are a couple of things to keep in mind:</p>
-<ul>
-<li>Place no function calls in your code, unless inside of another function. Everything should be run by hand from the console. This is to give you additional practice using the console and practice efficient app-switching processes.</li>
-<li>Create a new branch for each code problem, and merge each branch into <em>master</em> on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time you merge a pull request, then make a new branch from master for the next problem.</li>
-<li>Although this is an individual lab assignment, do feel free to (heck, it is <em>encouraged</em> that you) collaborate and work in pairs or groups.</li>
-</ul>
-<hr>
-<h3><a id="user-content-html-and-js-setup" class="anchor" aria-hidden="true" href="#html-and-js-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML and JS setup</h3>
-<p>You are being given starter code for today, in the <code>index.html</code> and <code>app.js</code> files inside of this directory. The success of your code will be determined by whether it passes tests that are in the <code>tests.js</code> file. You do not need to do anything with <code>tests.js</code>, though you should take a look at it to see how it works.</p>
-<p>Submission instructions are in the Canvas assignment.</p>
-</article>
+
+  <div itemprop="text" class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;</span>use strict<span class="pl-pds">&#39;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> Problem 1 (this is your demo that we&#39;ll solve in class)</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called sum() that takes in two numbers as arguments and then returns an array where the first element is the sum of those numbers, and the second element is a concatenated string that EXACTLY follows this example and uses the values that were input into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&quot;The sum of 4 and 7 is 11.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">sum</span>(<span class="pl-smi">a</span>, <span class="pl-smi">b</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for sum(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testSum(4, 7);</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don&#39;t forget to create a new branch for your work on the next question!</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> Problem 2</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called multiply() that takes in two numbers as arguments and returns an array where the first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and uses the values that were input into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&quot;The product of 5 and 9 is 45.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">multiply</span>(<span class="pl-smi">a</span>, <span class="pl-smi">b</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for multiply(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testMultiply(5,9);</span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don&#39;t forget to create a new branch for your work on the next question!</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> Problem 3</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called sumAndMultiply() that takes in three numbers as separate arguments and returns an array where the first element is the sum of those three numbers, the second element is the product of those three numbers,  and the third and fourth elements are strings that EXACTLY follow this example and use the values that were input into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Third element: &quot;4 and 7 and 5 sum to 16.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Fourth element: &quot;The product of 4 and 7 and 5 is 140.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-c">IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this function. To do addition, use your sum() function, and to do multiplication, use your multiply() function that you&#39;ve already created. You&#39;re going to have to be resourceful to figure out how to do this.</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">sumAndMultiply</span>(<span class="pl-smi">a</span>, <span class="pl-smi">b</span>, <span class="pl-smi">c</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for sumAndMultiply(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testSumAndMultiply(4,7,5);</span></td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don&#39;t forget to create a new branch for your work on the next question!</span></td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> Problem 4</span></td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called sumArray() that takes in an array of numbers as its single argument and then returns an array where the first element is the sum of the numbers in the array, and the second element is a string that EXACTLY follows this example and uses the values that were input into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&quot;2,3,4 was passed in as an array of numbers, and 9 is their sum.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class="pl-c">IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To do addition, use your sum() function that you&#39;ve already created. You&#39;re going to have to be resourceful to figure out how to do this.</span></td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> testArray <span class="pl-k">=</span> [<span class="pl-c1">2</span>, <span class="pl-c1">3</span>, <span class="pl-c1">4</span>]; <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">sumArray</span>(<span class="pl-smi">sumArr</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for sumArray(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testSumArray(testArray);</span></td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don&#39;t forget to create a new branch for your work on the next question!</span></td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> Problem 5</span></td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called multiplyArray() that takes an array of numbers as its argument and returns an array whose first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and uses the values that were input into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&quot;The numbers 2,3,4 have a product of 24.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-c">IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you&#39;ve already created. You&#39;re going to have to be resourceful to figure out how to do this. This function should handle an array containing three elements.</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">multiplyArray</span>(<span class="pl-smi">multArr</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for multiplyArray(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testMultiplyArray(testArray);</span></td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. </span></td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> You&#39;re done! Submit the link to the repo following the instructions in Canvas. Or, try out the stretch goal below...</span></td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Don&#39;t forget to create a new branch for your work on the next question, if you attempt it.</span></td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////</span></td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span> STRETCH GOAL: Problem 6</span></td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Write a function called multiplyAnyArray() that takes an array of numbers of any length as its argument and returns an array whose first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and concatenates a message using the arguments that were passed into the function:</span></td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&quot;The numbers 1,2,3,4,5 have a product of 120.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line"><span class="pl-c">IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you&#39;ve already created. You&#39;re going to have to be resourceful to figure out how to do this.</span></td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class="pl-c">This function should be dynamic, accepting an array of any length.</span></td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line"><span class="pl-c"></span></td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class="pl-c">Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.<span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Write your code here</span></td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> testDynamicArray <span class="pl-k">=</span> [<span class="pl-c1">1</span>,<span class="pl-c1">2</span>,<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>]; <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">multiplyAnyArray</span>(<span class="pl-smi">dynamicArray</span>) { <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Here is the test for multiplyArray(); uncomment it to run it</span></td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> testMultiplyAnyArray(testDynamicArray);</span></td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You&#39;re done! Submit the link to the repo following the instructions in Canvas.</span></td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/codefellows/seattle-201d39/blame/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/app.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/codefellows/seattle-201d39/issues/new">Open new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
   </div>
@@ -740,7 +1285,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.24953s from unicorn-54b959d5d-jxx4g">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.29898s from unicorn-1565773791-0003h">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>

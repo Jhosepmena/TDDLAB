@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>seattle-201d39/README.md at master · codefellows/seattle-201d39</title>
+  <title>seattle-201d39/tests.js at master · codefellows/seattle-201d39</title>
     <meta name="description" content="Contribute to codefellows/seattle-201d39 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/3904529?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="codefellows/seattle-201d39" /><meta property="og:url" content="https://github.com/codefellows/seattle-201d39" /><meta property="og:description" content="Contribute to codefellows/seattle-201d39 development by creating an account on GitHub." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzE2MzgxMzg0OjQzN2YwMTJlNjVmNDM5ODg2ZGMwOTdhN2IzNDBiODZmZjY2NjIxYWJmZGNjYTNiOWM0YWNlYmQ3YzAyOGE4MzM=--c4cd421123b1933a8274655f2a05fa7ea356a811">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzE2MzgxMzg0OjJjNWM0YzFhY2Y3NzA0ZTEwODAyMDgzZWU4OGQwYjYyODUwMmRmY2UyMGM1MmM0YTFiMGQzODQ5NGQ1MDAxNTI=--c3d470829d885e255cb8a0bc3e1555cd6769224a">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="C212:0E73:124A0E:1B2E48:5B9F9DDA" data-pjax-transient>
+  <meta name="request-id" content="C212:0E73:1254E1:1B3CC4:5B9F9DFE" data-pjax-transient>
 
 
   
@@ -51,7 +51,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C212:0E73:124A0E:1B2E48:5B9F9DDA" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40078590" /><meta name="octolytics-actor-login" content="Jhosepmena" /><meta name="octolytics-actor-hash" content="62a21f0eda11e4ae8887233f2018e2291cf54e2c269c2dcb197b16ecc95c0062" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C212:0E73:1254E1:1B3CC4:5B9F9DFE" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40078590" /><meta name="octolytics-actor-login" content="Jhosepmena" /><meta name="octolytics-actor-hash" content="62a21f0eda11e4ae8887233f2018e2291cf54e2c269c2dcb197b16ecc95c0062" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="Jhosepmena">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MWM5NThmMDBmMzM0MjYzZDUwY2RjZmU1NzJiOTJiMTM1NjAxNWQyNTc4NjVkY2UwMGMyNmQ5ZmU1NGExNjAwZnx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQwLjgzLjM4IiwicmVxdWVzdF9pZCI6IkMyMTI6MEU3MzoxMjRBMEU6MUIyRTQ4OjVCOUY5RERBIiwidGltZXN0YW1wIjoxNTM3MTg3MjkwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MjZiOWY3NGE0ODUxMzY5ODU1NGM3NGUyOTVkYzlmNTA2M2QwYmM1OTQ2YjkzYTYyNWY0ZmNlZjFkNGYwNWIwOHx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQwLjgzLjM4IiwicmVxdWVzdF9pZCI6IkMyMTI6MEU3MzoxMjU0RTE6MUIzQ0M0OjVCOUY5REZFIiwidGltZXN0YW1wIjoxNTM3MTg3MzMwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_DOCKERFILE_CI_CTA,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,MARKETPLACE_RETARGETING,QUOTE_MARKDOWN">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="3904529" /><meta name="octolytics-dimension-user_login" content="codefellows" /><meta name="octolytics-dimension-repository_id" content="146676429" /><meta name="octolytics-dimension-repository_nwo" content="codefellows/seattle-201d39" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="146676429" /><meta name="octolytics-dimension-repository_network_root_nwo" content="codefellows/seattle-201d39" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/tests.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -155,7 +155,7 @@
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=ARZmo8hekXee/tfzjTU273QHEsBVLYRDne0JF59x4wzDVoa8GI6i5jd73D74mw9cU4MFEVdHGapJPYQYWJARNg=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=PnRtda9JaLcsAsIvVT2VqHi5HZz32UGkSGLbTZZ0EZX8NI1qf5lbJoWHyeIgk6wbXz0KTfWz3E2cslZCUZXjrw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -305,7 +305,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="M/71FObg5uK/5uAit0VQUSJHMM3DGG6n5U2fs9I5aSirgZ9e4Z+uc1fwHcqVmDPYGthNj7Z9d0bC4tgnGYtmlg==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/M9rvgATK68D3Rr0XVPCqcZieP9YeMIH6IFuie/7uhtksAH0B2xjPuvL5xx/jqEg/v0FvS0d2+bPLikdJEm1pQ==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -318,7 +318,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aehNdV5YjXqpMXZkjJTJkofIBqck6t4Y5hYKbKXQEtDxlyc/WSfF60Eni4yuSaobv1d75VGPx/nBuU34bmIdbg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3McRHkEMbQ75xvebSLRAUiq1mJbAm880bwryb8ZNsy1EuHtURnMlnxHQCnNqaSPbEirl1LX+1tVIpbX7Df+8kw==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -358,7 +358,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Kt5Y5BPYmywjAu0RJbO2TbmgKqHZTFgTx7GC5VTfZ1rymi8hmNdlqA3JxNSSdnyRjYuTxHmToysSfsdL+7nO5w==" />      <input type="hidden" name="repository_id" id="repository_id" value="146676429" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="z7w1mcMboff/P9+NEartJ4sKsilz4IS7Du8BZUWRLIUX+EJcSBRfc9H09kimbyf7vyELTNM/f4PbIETL6veFOA==" />      <input type="hidden" name="repository_id" id="repository_id" value="146676429" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/codefellows/seattle-201d39/subscription"
@@ -438,7 +438,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/codefellows/seattle-201d39/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1TjhU6WN5kSbuHj+KZeTdZ1C7Xc82QfwJuWUUoDDJknmIz6sYOQQSi3jObx7J04xPs0sw1ddyydWnTFqDe9ZrQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/codefellows/seattle-201d39/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wkvidiTL++uoygmmXkg1MEyDOYM8lJHLSHJY7RQV/5XxUD2J4aIN5R6RSOQM+Oh07wz4N1cQXRw4Cv3VmTmAcQ==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -453,7 +453,7 @@
           3
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/codefellows/seattle-201d39/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="R1m+z31oPWLeeoZ6jNjGdROHq5g1S6gINnEJ9jo2Va6kqfg6ljn2tWd2R5mdIMwose4JHkBrDKfpWH9QLmtWEg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/codefellows/seattle-201d39/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GhG95O3uqmF1vgKMVwpArH22oqOZ0nzoNOSecBYS3DH54fsRBr9htsyyw29G8krx398AJezy2EfrzejWAk/fjQ==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -472,7 +472,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/codefellows/seattle-201d39/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yDc8wElOBRj/ItmmJOZrprLOXwR0b7oSbDjLyZ6HlZj2V/kcFeShJaX9IcdC3CHJL6VwCvurB5UQzglsmTy5eg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/codefellows/seattle-201d39/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BpeI8MxyG+KWjslPLK1j2CK+eicj0nSF0GmbPUFJRPY4900skNi/38xRMS5Klym3v9VVKawWyQKsn1mYRvJoFA==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -553,9 +553,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codefellows/seattle-201d39/blob/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/README.md">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/codefellows/seattle-201d39/blob/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/tests.js">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:1341e0bdfef86f593d88d71b2d801bb0 -->
+  <!-- blob contrib key: blob_contributors:v21:b19a622ccff953c559d2ab3208f408d6 -->
 
   
 
@@ -599,7 +599,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/README.md"
+               href="/codefellows/seattle-201d39/blob/master/class-05-images-color-text/lab/tests.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -638,12 +638,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39"><span>seattle-201d39</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text"><span>class-05-images-color-text</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text/lab"><span>lab</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39"><span>seattle-201d39</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text"><span>class-05-images-color-text</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/codefellows/seattle-201d39/tree/master/class-05-images-color-text/lab"><span>lab</span></a></span><span class="separator">/</span><strong class="final-path">tests.js</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/codefellows/seattle-201d39/contributors/master/class-05-images-color-text/lab/README.md" class="commit-tease commit-loader">
+  <include-fragment src="/codefellows/seattle-201d39/contributors/master/class-05-images-color-text/lab/tests.js" class="commit-tease commit-loader">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -660,9 +660,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/raw/master/class-05-images-color-text/lab/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/codefellows/seattle-201d39/blame/master/class-05-images-color-text/lab/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/commits/master/class-05-images-color-text/lab/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/raw/master/class-05-images-color-text/lab/tests.js">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/codefellows/seattle-201d39/blame/master/class-05-images-color-text/lab/tests.js">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/codefellows/seattle-201d39/commits/master/class-05-images-color-text/lab/tests.js">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -672,13 +672,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/codefellows/seattle-201d39/edit/master/class-05-images-color-text/lab/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="espiX5bwiCwW9MQC/KhckRVU4Bd6lXWgt1B8+gxNblUWljYifTe+bpBULIKQGO4Jnfd7jeKN2fmx6EOrCD+2Yw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/codefellows/seattle-201d39/edit/master/class-05-images-color-text/lab/tests.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1wgo61jR7TJYf3Fw2/WHJj70BoIp7yIefoDK600GE7HnJknrETdjt+2SencFfGHmo7sf6Bk9ZhW6rXONGkcGsA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/codefellows/seattle-201d39/delete/master/class-05-images-color-text/lab/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0Zb6YEdJa8WTS+Cp6wDxvBnMPd5GTdq0ailEt0l1z84vZpsPP3axNaSYhspOo/FYbpeBwJO0lqyXOLdBRmZbYA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/codefellows/seattle-201d39/delete/master/class-05-images-color-text/lab/tests.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RpU1DqwMedkv7YQFmz1+uPH87euoVTnX3iCUydrHJFbAOzV71LT5yi/7p6f4SuuXLOeWYtfZOeuL7E1cR1sSbw==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -686,33 +686,367 @@
 </form>  </div>
 
   <div class="file-info">
-      29 lines (16 sloc)
+      83 lines (75 sloc)
       <span class="file-info-divider"></span>
-    1.94 KB
+    2.15 KB
   </div>
 </div>
 
     
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-assignment-overview-lab-5" class="anchor" aria-hidden="true" href="#assignment-overview-lab-5"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assignment Overview: Lab 5</h1>
-<p>There are two parts to your lab assignment, and each is in a different assignment in Canvas:</p>
-<h3><a id="user-content-first-part-finish-about-me" class="anchor" aria-hidden="true" href="#first-part-finish-about-me"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>First Part: Finish About Me</h3>
-<p>Put finishing touches on your About Me project and get it deployed. The more time you spend with this, the better you'll get at CSS, but keep in mind that you also have readings to do and need to get some rest and relaxation in as well! The next project we will start is challenging, so be sure to come into it refreshed and ready.</p>
-<hr>
-<h3><a id="user-content-second-part-writing-code-on-branches" class="anchor" aria-hidden="true" href="#second-part-writing-code-on-branches"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Second Part: Writing Code On Branches</h3>
-<p>Today in lab you will fork and clone a <a href="https://github.com/johncokos/201d39-lab-05">GitHub repo</a>, and then create solutions to some code problems such that your solutions pass the included tests.</p>
-<p><strong>Be sure to follow instructions carefully.</strong></p>
-<p>Here are a couple of things to keep in mind:</p>
-<ul>
-<li>Place no function calls in your code, unless inside of another function. Everything should be run by hand from the console. This is to give you additional practice using the console and practice efficient app-switching processes.</li>
-<li>Create a new branch for each code problem, and merge each branch into <em>master</em> on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time you merge a pull request, then make a new branch from master for the next problem.</li>
-<li>Although this is an individual lab assignment, do feel free to (heck, it is <em>encouraged</em> that you) collaborate and work in pairs or groups.</li>
-</ul>
-<hr>
-<h3><a id="user-content-html-and-js-setup" class="anchor" aria-hidden="true" href="#html-and-js-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML and JS setup</h3>
-<p>You are being given starter code for today, in the <code>index.html</code> and <code>app.js</code> files inside of this directory. The success of your code will be determined by whether it passes tests that are in the <code>tests.js</code> file. You do not need to do anything with <code>tests.js</code>, though you should take a look at it to see how it works.</p>
-<p>Submission instructions are in the Canvas assignment.</p>
-</article>
+
+  <div itemprop="text" class="blob-wrapper data type-javascript">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-pds">&#39;</span>use strict<span class="pl-pds">&#39;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">//</span> You should not modify anything in this file, but feel free to look through it!</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testSum</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (<span class="pl-en">sum</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">11</span> <span class="pl-k">&amp;&amp;</span> <span class="pl-en">sum</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>)[<span class="pl-c1">1</span>] <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>The sum of 4 and 7 is 11.<span class="pl-pds">&#39;</span></span>) {</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sum() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sum() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testMultiply</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiply</span>(<span class="pl-c1">5</span>, <span class="pl-c1">9</span>)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">45</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiply</span>(<span class="pl-c1">5</span>, <span class="pl-c1">9</span>)[<span class="pl-c1">1</span>] <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>The product of 5 and 9 is 45.<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">  ) {</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiply() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiply() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testSumAndMultiply</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumAndMultiply</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>, <span class="pl-c1">5</span>)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">16</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumAndMultiply</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>, <span class="pl-c1">5</span>)[<span class="pl-c1">1</span>] <span class="pl-k">===</span> <span class="pl-c1">140</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumAndMultiply</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>, <span class="pl-c1">5</span>)[<span class="pl-c1">2</span>] <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>4 and 7 and 5 sum to 16.<span class="pl-pds">&#39;</span></span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumAndMultiply</span>(<span class="pl-c1">4</span>, <span class="pl-c1">7</span>, <span class="pl-c1">5</span>)[<span class="pl-c1">3</span>] <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>The product of 4 and 7 and 5 is 140.<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">  ) {</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sumAndMultiply() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sumAndMultiply() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testSumArray</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumArray</span>(testArray)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">9</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">sumArray</span>(testArray)[<span class="pl-c1">1</span>] <span class="pl-k">===</span></td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">      <span class="pl-s"><span class="pl-pds">&#39;</span>2,3,4 was passed in as an array of numbers, and 9 is their sum.<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">  ) {</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sumArray() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR sumArray() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testMultiplyArray</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiplyArray</span>(testArray)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">24</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiplyArray</span>(testArray)[<span class="pl-c1">1</span>] <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>The numbers 2,3,4 have a product of 24.<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">  ) {</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiplyArray() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiplyArray() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">testMultiplyAnyArray</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">//</span>eslint-disable-line</span></td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">if</span> (</td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiplyAnyArray</span>(testDynamicArray)[<span class="pl-c1">0</span>] <span class="pl-k">===</span> <span class="pl-c1">120</span> <span class="pl-k">&amp;&amp;</span></td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">multiplyAnyArray</span>(testDynamicArray)[<span class="pl-c1">1</span>] <span class="pl-k">===</span></td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">      <span class="pl-s"><span class="pl-pds">&#39;</span>The numbers 1,2,3,4,5 have a product of 120.<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">  ) {</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiplyAnyArray() PASSES<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: green<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">else</span> {</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>%c TEST FOR multiplyAnyArray() FAILS<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>color: red<span class="pl-pds">&#39;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">  }</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/codefellows/seattle-201d39/blame/35e1fa272174be4b8ed174b0bf4bf13a1df610e0/class-05-images-color-text/lab/tests.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/codefellows/seattle-201d39/issues/new">Open new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
   </div>
@@ -740,7 +1074,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.24953s from unicorn-54b959d5d-jxx4g">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.29390s from unicorn-1565773791-7tn1f">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
